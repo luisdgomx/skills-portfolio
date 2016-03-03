@@ -43,3 +43,15 @@
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
+
+var options = {
+  useEasing : true, 
+  useGrouping : true, 
+  separator : ',', 
+  decimal : '.', 
+  prefix : '', 
+  suffix : '' 
+};
+var demo = new CountUp("CountUp1", 0, 5000, 0, 2.5, options); demo.start();
+ demo = new CountUp("CountUp2", 0, 2000, 0, 2.5, options); demo.start();
+ demo = new CountUp("CountUp3", 0, 3000, 0, 2.5, options); demo.start();

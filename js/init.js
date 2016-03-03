@@ -33,6 +33,13 @@
     tracking: "viewport"
 
 	});
+    
+    $('.flip').click(function(){
+        $(this).find('.card').addClass('flipped').mouseleave(function(){
+            $(this).removeClass('flipped');
+        });
+        return false;
+    });
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space

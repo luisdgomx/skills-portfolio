@@ -6,6 +6,7 @@
   <title>Francisco Arroyo - Web Programmer</title>
 
   <!-- CSS  -->
+  <link rel="icon" href="img/favicon.ico">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -17,23 +18,29 @@
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">Francisco Arroyo</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Coding</a></li>
-        <li><a href="#">DevOps</a></li>
-        <li><a href="#">Mobile development</a></li>
-        <li><a href="#">Social media expertise</a></li>
+        <li><a href="#ptsection-coding">Coding</a></li>
+        <li><a href="#">Database</a></li>
+        <li><a href="#ptsection-devops">DevOps</a></li>
+        <li><a href="#">Mobile</a></li>
+        <li><a href="#">Social Media</a></li>
+        <li><a href="#">UX</a></li>
+        <li><a href="#">Agile</a></li>
       </ul>
       <ul id="nav-mobile" class="side-nav">
         <li><a href="#">Coding</a></li>
+        <li><a href="#">Database</a></li>
         <li><a href="#">DevOps</a></li>
-        <li><a href="#">Mobile development</a></li>
-        <li><a href="#">Social media expertise</a></li>
+        <li><a href="#">Mobile</a></li>
+        <li><a href="#">Social Media</a></li>
+        <li><a href="#">UX</a></li>
+        <li><a href="#">Agile</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
   <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
+    <div class="section pt-section" data-name="Inicio" id="ptsection-inicio">
       <div class="container">
         <br><br>
         <div class="fog">
@@ -58,7 +65,7 @@
 
       <!--   Icon Section   -->
       <div class="row">
-        <div class="col s12 m4">
+        <div class="col s12 m12 l4">
           <div class="icon-block">
             <h2 class="center black-text"><i class="material-icons">code</i></h2>
             <h5 class="center">Speeds up development</h5>
@@ -67,7 +74,7 @@
           </div>
         </div>
 
-        <div class="col s12 m4">
+        <div class="col s12 m12 l4">
           <div class="icon-block">
             <h2 class="center black-text"><i class="material-icons">power_settings_new</i></h2>
             <h5 class="center">User Experience Focused</h5>
@@ -76,7 +83,7 @@
           </div>
         </div>
 
-        <div class="col s12 m4">
+        <div class="col s12 m12 l4">
           <div class="icon-block">
             <h2 class="center black-text"><i class="material-icons">offline_pin</i></h2>
             <h5 class="center">Easy to work with</h5>
@@ -91,7 +98,7 @@
 
 
   <div class="parallax-container valign-wrapper">
-    <div class="section pt-section" data-name="DevOps" id="ptsection-devops">
+    <div class="section">
       <div class="container">
         <div class="row center">
           <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
@@ -102,23 +109,24 @@
   </div>
 
   <div class="container">
-    <div class="section">
+    <div class="section pt-section" data-name="DevOps" id="ptsection-devops">
 
       <div class="row">
-        <div class="col m3 center">
+        <h2 class="center black-text" style="font-size:2em;">DevOps</h2>
+        <div class="col s12 m12 l3">
             <h2 class="center black-text"><i class="material-icons" style="font-size:2em;">power_settings_new</i></h2>
             <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
         </div>
-        <div class="col m9 center">
-            <div class="col m4 center">
+        <div class="col s12 m12 l9">
+            <div class="col m12 center">
               <h5 class="header col s12 light">Material Design</h5>
               <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
             </div>
-            <div class="col m4 center">
+            <div class="col m12 center">
               <h5 class="header col s12 light">Material Design</h5>
               <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
             </div>
-            <div class="col m4 center">
+            <div class="col m12 center">
               <h5 class="header col s12 light">Material Design</h5>
               <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
             </div>
@@ -141,16 +149,16 @@
   </div>
 
   <div class="container">
-    <div class="section">
+    <div class="section pt-section" data-name="Perfiles" id="ptsection-perfiles">
 
       <div class="row">
-        <div class="col m4 center">
+        <div class="col s12 m4 l4 center">
           <img src="img/linkedin-logo.jpg" alt="Linkedin Profile" class="circle-img materialboxed">
         </div>
-        <div class="col m4 center">
+        <div class="col s12 m4 l4 center">
           <img src="img/github-jedi-logo.jpg" alt="Github Profile" class="circle-img materialboxed">
         </div>
-        <div class="col m4 center">
+        <div class="col s12 m4 l4 center">
           <img src="img/behance-logo.jpg" alt="Behance Portfolio" class="circle-img materialboxed">
         </div>
       </div>
@@ -188,7 +196,7 @@
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container">
+      <div class="container center">
       Made by <a class="brown-text text-lighten-3" href="http://controlzeta.com.mx">Control Zeta</a>
       </div>
     </div>

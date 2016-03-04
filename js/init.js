@@ -55,3 +55,34 @@ var options = {
 var demo = new CountUp("CountUp1", 0, 5000, 0, 2.5, options); demo.start();
  demo = new CountUp("CountUp2", 0, 2000, 0, 2.5, options); demo.start();
  demo = new CountUp("CountUp3", 0, 3000, 0, 2.5, options); demo.start();
+
+var radarChartData = {
+        labels: ["SQL Server", "MySQL", "Postgres", "Oracle"],
+        datasets: [
+            {
+                label: "My First dataset",
+                fillColor: "rgba(220,220,220,0.2)",
+                strokeColor: "rgba(220,220,220,1)",
+                pointColor: "rgba(220,220,220,1)",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(220,220,220,1)",
+                data: [65,59,90,81,56]
+            },
+            {
+                label: "My Second dataset",
+                fillColor: "rgba(151,187,205,0.2)",
+                strokeColor: "rgba(151,187,205,1)",
+                pointColor: "rgba(151,187,205,1)",
+                pointStrokeColor: "#fff",
+                pointHighlightFill: "#fff",
+                pointHighlightStroke: "rgba(151,187,205,1)",
+                data: [28,48,40,19,96]
+            }
+        ]
+    };
+    window.onload = function(){
+        window.myRadar = new Chart(document.getElementById("chart-area").getContext("2d")).Radar(radarChartData, {
+            responsive: true
+        });
+    }

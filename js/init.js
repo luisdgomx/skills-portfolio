@@ -4,6 +4,7 @@
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
     $('.materialboxed').materialbox();
+    $('.modal-trigger').leanModal();
 
     $('body').progressTracker({
 
@@ -52,32 +53,32 @@ var options = {
   prefix : '', 
   suffix : '' 
 };
-var demo = new CountUp("CountUp1", 0, 5000, 0, 2.5, options); demo.start();
- demo = new CountUp("CountUp2", 0, 2000, 0, 2.5, options); demo.start();
- demo = new CountUp("CountUp3", 0, 3000, 0, 2.5, options); demo.start();
+var demo = new CountUp("CountUp1", 0, 8465, 0, 2.5, options); demo.start(); //Líneas de Código
+ demo = new CountUp("CountUp2", 0, 16, 0, 2.5, options); demo.start(); //Proyectos
+ demo = new CountUp("CountUp3", 0, 2920, 0, 2.5, options); demo.start(); //Tazas de Café
 
 var radarChartData = {
-        labels: ["SQL Server", "MySQL", "Postgres", "Oracle"],
+        labels: ["SQL Server", "MySQL", "Postgres", "Oracle", "Mongo"],
         datasets: [
             {
-                label: "My First dataset",
-                fillColor: "rgba(220,220,220,0.2)",
-                strokeColor: "rgba(220,220,220,1)",
-                pointColor: "rgba(220,220,220,1)",
+                label: "Experiencia %",
+                fillColor: "rgba(31, 143, 193, 0.2)",
+                strokeColor: "rgba(31, 143, 193, 0.9)",
+                pointColor: "rgba(31, 143, 193, 0.9)",
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "#fff",
                 pointHighlightStroke: "rgba(220,220,220,1)",
-                data: [65,59,90,81,56]
+                data: [80,75,60,50,40]
             },
             {
-                label: "My Second dataset",
+                label: "Proyectos",
                 fillColor: "rgba(151,187,205,0.2)",
-                strokeColor: "rgba(151,187,205,1)",
-                pointColor: "rgba(151,187,205,1)",
+                strokeColor: "rgba(193, 31, 52, 0.9)",
+                pointColor: "rgba(193, 31, 52, 0.9)",
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "#fff",
                 pointHighlightStroke: "rgba(151,187,205,1)",
-                data: [28,48,40,19,96]
+                data: [6,4,3,2,1]
             }
         ]
     };

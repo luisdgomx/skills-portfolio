@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/font-awesome.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/jquery.progresstracker.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
@@ -19,21 +20,21 @@
       <a id="logo-container" href="#" class="brand-logo">Francisco Arroyo</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#ptsection-coding">Coding</a></li>
-        <li><a href="#">Database</a></li>
+        <li><a href="#ptsection-database">Database</a></li>
         <li><a href="#ptsection-devops">DevOps</a></li>
-        <li><a href="#">Mobile</a></li>
-        <li><a href="#">Social Media</a></li>
-        <li><a href="#">UX</a></li>
-        <li><a href="#">Agile</a></li>
+        <li><a href="#ptsection-mobile">Mobile</a></li>
+        <li><a href="#ptsection-social-media">Social Media</a></li>
+        <li><a href="#ptsection-user-experience">UX</a></li>
+        <li><a href="#ptsection-agile">Agile</a></li>
       </ul>
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Coding</a></li>
-        <li><a href="#">Database</a></li>
-        <li><a href="#">DevOps</a></li>
-        <li><a href="#">Mobile</a></li>
-        <li><a href="#">Social Media</a></li>
-        <li><a href="#">UX</a></li>
-        <li><a href="#">Agile</a></li>
+        <li><a href="#ptsection-coding">Coding</a></li>
+        <li><a href="#ptsection-database">Database</a></li>
+        <li><a href="#ptsection-devops">DevOps</a></li>
+        <li><a href="#ptsection-mobile">Mobile</a></li>
+        <li><a href="#ptsection-social-media">Social Media</a></li>
+        <li><a href="#ptsection-user-experience">UX</a></li>
+        <li><a href="#ptsection-agile">Agile</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -49,7 +50,7 @@
           <h5 class="header col s12 light">A mi curriculum vitae deja que te cuente un poco de lo que hago</h5>
         </div>
         <div class="row center">
-          <a href="" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Contratame</a>
+          <a href="" id="download-button" class="waves-effect waves-light btn modal-trigger" data-target="modal1" class="btn modal-trigger">Contrátame</a>
         </div>
         </div>
         <br><br>
@@ -64,8 +65,8 @@
         <h3 class="center">Coding Skills</h3>
         <div class="col s12 m12 l4">
           <div class="icon-block">
-            <h2 class="center black-text"><i class="material-icons">code</i></h2>
-            <h5 class="center">Microsoft Dev</h5>
+            <h2 class="center black-text"><i class="material-icons" style="color:#354A98;">code</i></h2>
+            <h5 class="center" style="color: #354A98;">Microsoft Dev</h5>
 
             <p class="light" style="text-align:justify;">Soy un desarrollador web enfocado a .NET por su rubustez, escalabilidad e interoperabilidad con otros sistemas, pero eso no es todo también he trabajado con PHP, Angular y VB realizando mejoras, migraciones y reparaciones de sistemas existentes.</p>
           </div>
@@ -73,8 +74,8 @@
 
         <div class="col s12 m12 l4">
           <div class="icon-block">
-            <h2 class="center black-text"><i class="material-icons">power_settings_new</i></h2>
-            <h5 class="center">Front End</h5>
+            <h2 class="center black-text"><i class="material-icons" style="color:#3C7F80;">power_settings_new</i></h2>
+            <h5 class="center" style="color:#3C7F80;">Front End</h5>
 
             <p class="light" style="text-align:justify;">Los desarrollos siempre deben estar enfocados en el usuario y su experiencia. Si hay una forma de quitarle clicks y pasos debes estar seguro que eso haré, las interfaces deben estar hechas para disfrutarse, no para odiarse.</p>
           </div>
@@ -82,8 +83,8 @@
 
         <div class="col s12 m12 l4">
           <div class="icon-block">
-            <h2 class="center black-text"><i class="material-icons">offline_pin</i></h2>
-            <h5 class="center">Updated</h5>
+            <h2 class="center black-text"><i class="material-icons" style="color:#B30606;">offline_pin</i></h2>
+            <h5 class="center" style="color:#B30606;">Updated</h5>
 
             <p class="light" style="text-align:justify;">Me encanta mantenerme actualizado, ya sea por un curso online, conferencias, Campus Party, leer blogs o cursos presenciales, siempre es mejor saber que puedes ocupar de las nuevas tecnologías para tu trabajo.</p>
           </div>
@@ -95,11 +96,11 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">“If you think it’s expensive to hire a professional, wait until you hire an amateur.”</h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="img/background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="img/background5.jpg" alt="Unsplashed background img 3"></div>
   </div>
    <div class="container">
     <div class="section pt-section" data-name="Database" id="ptsection-database">
@@ -119,66 +120,68 @@
   <div class="parallax-container valign-wrapper">
     <div class="section">
       <div class="container">
-        <div class="row center">
-          <div class="col s12 m12 l4">
+        <div class="row center" height="100%">
+          <div class="col s12 m4 l4">
+            <h2><i class="fa fa-code"></i></h2>
             <h4>Líneas de Código</h4>
             <h2 style="font-size:5em;" count-up id="CountUp1" end-val="873.4" scroll-spy-event="elementFirstScrolledIntoView" scroll-spy></h2>
           </div>
-          <div class="col s12 m12 l4">
+          <div class="col s12 m4 l4">
+            <h2><i class="fa fa-code-fork"></i></h2>
             <h4>Proyectos</h4>
             <h2 style="font-size:5em;" count-up id="CountUp2" end-val="873.4" scroll-spy-event="elementFirstScrolledIntoView" scroll-spy></h2>
           </div>
-          <div class="col s12 m12 l4">
+          <div class="col s12 m4 l4">
+            <h2><i class="fa fa-coffee"></i></h2>
             <h4>Tazas de Café</h4>
             <h2 style="font-size:5em;" count-up id="CountUp3" end-val="873.4" scroll-spy-event="elementFirstScrolledIntoView" scroll-spy></h2>
           </div>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="img/background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="img/background4.jpg" alt="Unsplashed background img 2"></div>
   </div>
   <div class="container">
     <div class="section pt-section" data-name="DevOps" id="ptsection-devops">
-
       <div class="row">
-        <h2 class="center black-text" style="font-size:2em;">DevOps</h2>
+        <h3 class="center black-text" >DevOps</h3>
         <div class="col s12 m12 l3">
-            <h2 class="center black-text"><i class="material-icons" style="font-size:1.5em;">power_settings_new</i></h2>
-            <span style="font-size: 20px; text-align: justify;" class="header col s12 light" >Un buen programador, también despliega su código</span>
+            <h2 class="center black-text"><i class="fa fa-cloud-upload"></i></h2>
+            <span style="font-size: 20px; text-align: center;" class="header col s12 light" >Un buen programador también despliega su propio código</span>
         </div>
         <div class="col s12 m12 l9">
-            <div class="col m4 center">
+            <div class="col s12 m4 center">
               <div class="flip"> 
                   <div class="card"> 
-                      <div class="face front"> 
-                          Ninja
+                      <div class="face front" style="background:#00A4B9;"> 
+                          <i class="fa fa-server"></i>
                       </div> 
                       <div class="face back"> 
-                          Master
+                          IIS
                       </div> 
                   </div> 
               </div> 
             </div>
-            <div class="col m4 center">
+            <div class="col s12 m4 center">
               <div class="flip"> 
                   <div class="card"> 
-                      <div class="face front"> 
-                          Ninja
+                      <div class="face front" style="background:#E7654E;">
+                          <i class="fa fa-cloud"></i>
                       </div> 
                       <div class="face back"> 
-                          Master
+                          Azure
                       </div> 
                   </div> 
               </div> 
             </div>
-            <div class="col m4 center">
+            <div class="col s12 m4 center">
               <div class="flip"> 
                   <div class="card"> 
-                      <div class="face front"> 
-                          Ninja
+                      <div class="face front" style="background:#149671;">
+                          <i class="fa fa-github"></i>
                       </div> 
                       <div class="face back"> 
-                          Master
+                          GitHub
                       </div> 
                   </div> 
               </div> 
@@ -188,37 +191,142 @@
 
     </div>
   </div>
-
-
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">“The most powerful tool we have as developers is automation.”</h5>
+          <h5 class="header col s12 light">– Scott Hanselman</h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="img/background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="img/background10.jpg" alt="Unsplashed background img 3"></div>
   </div>
-
+  <div class="container">
+    <div class="section pt-section" data-name="Mobile" id="ptsection-mobile">
+    <div class="row"> 
+      <h3 class="center">Mobile</h3>
+      <div class="col s12 m12 l6">
+        <img src="img/mobile-first-responsive-design.png" style="width:100%;" class="" alt="Unsplashed background img 3">
+      </div>
+      <div class="col s12 m12 l6">
+        <p class="light" style="text-align:justify;">Me encanta mantenerme actualizado, ya sea por un curso online, conferencias, Campus Party, leer blogs o cursos presenciales, siempre es mejor saber que puedes ocupar de las nuevas tecnologías para tu trabajo.</p>
+      </div>
+    </div>
+    </div>
+  </div>
+    <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">"If there's something you want to build, but the tech isn't there yet, just find the closest possible way to make it happen"</h5> 
+          <h5 class="header col s12 light">- Dennis Crowley</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/background9.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+  <div class="container">
+    <div class="section pt-section" data-name="Social Media" id="ptsection-social-media">
+    <div class="row"> 
+      <h3 class="center">Social Media</h3>
+      <div class="col s12 m12 l6">
+        
+      </div>
+      <div class="col s12 m12 l6">
+        <p class="light" style="text-align:justify;">Me encanta mantenerme actualizado, ya sea por un curso online, conferencias, Campus Party, leer blogs o cursos presenciales, siempre es mejor saber que puedes ocupar de las nuevas tecnologías para tu trabajo.</p>
+      </div>
+    </div>
+    </div>
+  </div>
+    <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">"Don't say anything online that you wouldn't want plastered on a billboard with your face on it"</h5>
+          <h5 class="header col s12 light">- Erin Bury</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/background8.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+    <div class="container">
+    <div class="section pt-section" data-name="UX" id="ptsection-user-experience">
+    <div class="row"> 
+      <h3 class="center">UX</h3>
+      <div class="col s12 m12 l6">
+      </div>
+      <div class="col s12 m12 l6">
+        <p class="light" style="text-align:justify;">Me encanta mantenerme actualizado, ya sea por un curso online, conferencias, Campus Party, leer blogs o cursos presenciales, siempre es mejor saber que puedes ocupar de las nuevas tecnologías para tu trabajo.</p>
+      </div>
+    </div>
+    </div>
+  </div>
+    <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">"As far as the customer is concerned the Interface is the product"</h5>
+          <h5 class="header col s12 light">- Jef Raskin</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/background7.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+      <div class="container">
+    <div class="section pt-section" data-name="Agile" id="ptsection-agile">
+    <div class="row"> 
+      <h3 class="center">Agile</h3>
+      <div class="col s12 m12 l6">
+      </div>
+      <div class="col s12 m12 l6">
+        <p class="light" style="text-align:justify;">Me encanta mantenerme actualizado, ya sea por un curso online, conferencias, Campus Party, leer blogs o cursos presenciales, siempre es mejor saber que puedes ocupar de las nuevas tecnologías para tu trabajo.</p>
+      </div>
+    </div>
+    </div>
+  </div>
+    <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">"The goal of this life isn't to be perfect but to be progressively less stupid"</h5>
+          <h5 class="header col s12 light">- Marshall Rosenberg</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/background6.jpg" alt="Unsplashed background img 3"></div>
+  </div>
   <div class="container">
     <div class="section pt-section" data-name="Perfiles" id="ptsection-perfiles">
-
       <div class="row">
         <div class="col s12 m4 l4 center">
-          <img src="img/linkedin-logo.jpg" alt="Linkedin Profile" class="circle-img materialboxed">
+          <a href="https://mx.linkedin.com/in/francisco-arroyo-83351727" target="_blank">
+            <img src="img/linkedin-logo.jpg" alt="Linkedin Profile" class="circle-img materialboxed">
+          </a>
         </div>
         <div class="col s12 m4 l4 center">
-          <img src="img/github-jedi-logo.jpg" alt="Github Profile" class="circle-img materialboxed">
+          <a href="https://github.com/controlzeta/" target="_blank">
+            <img src="img/github-jedi-logo.jpg" alt="Github Profile" class="circle-img materialboxed">
+          </a>
         </div>
         <div class="col s12 m4 l4 center">
-          <img src="img/behance-logo.jpg" alt="Behance Portfolio" class="circle-img materialboxed">
+          <a href="https://www.behance.net/pakoarroyo" target="_blank">
+            <img src="img/behance-logo.jpg" alt="Behance Portfolio" class="circle-img materialboxed">
+          </a>
         </div>
       </div>
 
     </div>
   </div>
-
+    <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
   <footer class="page-footer teal">
     <div class="container">
       <div class="row">
@@ -229,21 +337,23 @@
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+          <h5 class="white-text">Menu</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="#ptsection-coding">Coding</a></li>
+            <li><a class="white-text" href="#ptsection-database">Database</a></li>
+            <li><a class="white-text" href="#ptsection-devops">DevOps</a></li>
+            <li><a class="white-text" href="#ptsection-mobile">Mobile</a></li>
+            <li><a class="white-text" href="#ptsection-social-media">Social Media</a></li>
+            <li><a class="white-text" href="#ptsection-user-experience">User Experience</a></li>
+            <li><a class="white-text" href="#ptsection-agile">Agile</a></li>
           </ul>
         </div>
         <div class="col l3 s12">
           <h5 class="white-text">Connect</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="#!"><i class="fa fa-behance-square"></i> Behance</a></li>
+            <li><a class="white-text" href="#!"><i class="fa fa-linkedin-square"></i> Linkedin</a></li>
+            <li><a class="white-text" href="#!"><i class="fa fa-github-square"></i> Github</a></li>
           </ul>
         </div>
       </div>

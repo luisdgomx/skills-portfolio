@@ -77,6 +77,7 @@ body {
    height: 200px;
     position: relative;
     margin: 50px auto;
+    font-family: 'Montserrat', sans-serif;
 }
 .flip .card.flipped {
   -webkit-transform: rotatex(-180deg);
@@ -86,6 +87,7 @@ body {
   height: 100%;
   -webkit-transform-style: preserve-3d;
   -webkit-transition: 0.5s;
+  font-family: 'Montserrat', sans-serif;
 }
 .flip .card .face {
   width: 100%;
@@ -96,6 +98,7 @@ body {
     font-family: Georgia;
     font-size: 3em;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
     line-height: 200px;
 }
 .flip .card .front {

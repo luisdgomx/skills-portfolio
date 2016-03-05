@@ -52,7 +52,7 @@
       itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
   });
 
-  owl.trigger('owl.play',1000);
+  owl.trigger('owl.play',3000);
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
@@ -80,7 +80,7 @@ var radarChartData = {
                 pointStrokeColor: "#fff",
                 pointHighlightFill: "#fff",
                 pointHighlightStroke: "rgba(220,220,220,1)",
-                data: [80,75,60,50,40]
+                data: [80,75,60,50,30]
             },
             {
                 label: "Proyectos",
@@ -94,9 +94,40 @@ var radarChartData = {
             }
         ]
     };
+
+var linedata = {
+    labels: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio"],
+    datasets: [
+        {
+            label: "Usuarios",
+            fillColor: "rgba(210, 19, 19,0.2)",
+            strokeColor: "rgba(220,220,220,1)",
+            pointColor: "rgba(210, 19, 19,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+            data: [65, 59, 80, 81, 56, 55, 40]
+        },
+        {
+            label: "Nuevos Usuarios",
+            fillColor: "rgba(31, 143, 193, 0.2)",
+            strokeColor: "rgba(151,187,205,1)",
+            pointColor: "rgba(31, 143, 193,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(151,187,205,1)",
+            data: [28, 48, 40, 19, 86, 27, 90]
+        }
+    ]
+};
+
     window.onload = function(){
         window.myRadar = new Chart(document.getElementById("chart-area").getContext("2d")).Radar(radarChartData, {
             responsive: true
         });
-    }
 
+        window.myLineChart = new Chart(document.getElementById("chart-analytics").getContext("2d")).Line(linedata, {
+            responsive: true,
+            bezierCurve: true
+        });
+    }

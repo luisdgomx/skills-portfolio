@@ -104,9 +104,9 @@ body {
 .flip .card .front {
   position: absolute;
   z-index: 1;
-    background: black;
-    color: white;
-    cursor: pointer;
+  background: black;
+  color: white;
+  cursor: pointer;
 }
 .flip .card .back {
   -webkit-transform: rotatex(-180deg);
@@ -114,6 +114,9 @@ body {
     background: white;
     color: black;
     cursor: pointer;
+    font-size: 2em;
+    line-height: 20px;
+    padding-top: 10px;
 }
 
 .modal-content input:not([type]), input[type=text], 
@@ -124,3 +127,27 @@ input[type=password], input[type=email], input[type=url],
  textarea.materialize-textarea {
   color: gray;
 }
+
+.normal-text {
+    background: blue;
+    background: transparent;
+    color: black;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 18px;
+}
+
+.collapsible {
+   border: none;
+   background: transparent;
+  }
+
+.collapsible-header {
+   border: none;
+   background: transparent;
+  }
+
+.collapsible-body {
+   border: none;
+   background: transparent;
+  }

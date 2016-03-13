@@ -106,7 +106,7 @@ var linedata = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
-            data: [65, 59, 80, 81, 56, 55, 40]
+            data: [6500, 5900, 8000, 8100, 5600, 5500, 4000]
         },
         {
             label: "Nuevos Usuarios",
@@ -116,7 +116,7 @@ var linedata = {
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(151,187,205,1)",
-            data: [28, 48, 40, 19, 86, 27, 90]
+            data: [2800, 4800, 4000, 1900, 8600, 2700, 9000]
         }
     ]
 };

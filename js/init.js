@@ -179,7 +179,7 @@ $("#form1").submit(function(event) {
 
      ajaxRequest.done(function (response, textStatus, jqXHR){
           // show successfully for submit message
-          $("#result").html('Gracias por contactarnos');
+          $("#result").html('Gracias por contactarme');
      });
 
      /* On failure of request this function will be called  */

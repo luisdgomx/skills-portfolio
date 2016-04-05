@@ -27,7 +27,11 @@ img {
   max-width: 100%;
 }
 
-
+.work {
+    font-size: larger;
+    font-weight: bold;
+    color: #637CAB !important;
+}
 
 h3 {
     width: 90%;
@@ -41,7 +45,12 @@ h3 {
 
 .skills {
   font-weight: bold;
+}
 
+.badges {
+  font-size: 5em !important; 
+  line-height: 1em !important;
+  margin-bottom: .5em !important;
 }
 
 /* -------------------------------- 

@@ -27,6 +27,23 @@ img {
   max-width: 100%;
 }
 
+
+
+h3 {
+    width: 90%;
+    margin: 0 auto .6em;
+    font-size: 2.6rem;
+    color: #ebebeb;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.skills {
+  font-weight: bold;
+
+}
+
 /* -------------------------------- 
 
 Patterns - reusable parts of our design
@@ -115,6 +132,17 @@ Intro page
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.cd-intro-block h2 {
+    width: 90%;
+    margin: 0 auto .6em;
+    padding-top: 15px;
+    font-size: 2.6rem;
+    color: #ebebeb;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 .cd-intro-block.projects-visible {
   /* translate the .cd-intro-block element to reveal the projects slider */
   -webkit-transform: translateY(-90%);

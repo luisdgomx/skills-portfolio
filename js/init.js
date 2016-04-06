@@ -5,7 +5,7 @@
     $('.parallax').parallax();
     $('.materialboxed').materialbox();
     $('.modal-trigger').leanModal();
-
+    new Philter();
     $('body').progressTracker({
 
     // Allows for navigating between content sections

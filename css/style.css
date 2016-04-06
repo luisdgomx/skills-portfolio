@@ -45,6 +45,13 @@ p {
   #index-banner .section {
     top: 10%;
   }
+  .saludo {
+    left: 5% !important;
+    top:25% !important; 
+    width:90% !important; 
+    font-size:35px !important; 
+    line-height:55px !important; 
+  }
 }
 
 @media only screen and (max-width : 600px) {
@@ -60,6 +67,13 @@ p {
   }
   #Counters .section  {
       margin-top: -350px;
+  }
+  .saludo {
+    left: 5% !important;
+    top:15% !important; 
+    width:85% !important; 
+    font-size:30px !important; 
+    line-height:45px !important; 
   }
 }
 
@@ -170,4 +184,14 @@ input[type=password], input[type=email], input[type=url],
 .collapsible-body {
    border: none;
    background: transparent;
+  }
+
+  .saludo {
+    color:white; 
+    position: absolute; 
+    text-align:center; 
+    left: 5%; top:30%; 
+    width:90%; 
+    font-size:40px; 
+    line-height:65px;
   }

@@ -11,6 +11,7 @@
   <!-- CSS  -->
   <link rel="icon" href="img/favicon.ico">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Glegoo' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/particles-style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -81,7 +82,7 @@
   <div class="container">
     <div class="section pt-section" data-name="Coding" id="ptsection-coding">
       <!--   Icon Section   -->
-      <div class="row">
+      <div id="fade-it" class="row">
         <h2 class="center">Coding Skills</h2>
         <div class="col s12 m12 l4">
           <div class="icon-block">
@@ -160,7 +161,7 @@
    <div class="container">
     <div class="section pt-section" data-name="Database" id="ptsection-database" data-philter-grayscale="100 0" data-philter-drop-shadow="0 0 3 90 0 0 10 60">
     <div class="row"> 
-      <h2 class="center">Database</h2>
+      <h2 id="title-line1" class="center">Database</h2>
       <div class="col s12 m12 l6">
         <div id="canvas-holder" style="width:100%">
           <canvas id="chart-area" width="800" height="450"/>
@@ -202,7 +203,7 @@
   <div class="container">
     <div class="section pt-section" data-name="DevOps" id="ptsection-devops">
       <div class="row">
-        <h2 class="center black-text" >DevOps</h2>
+        <h2 id="scale-it" class="center black-text" >DevOps</h2>
         <div class="col s12 m12 l3">
             <h2 class="center black-text"><i class="fa fa-cloud-upload faa-bounce animated"></i></h2>
             <span style="font-size: 20px; text-align: center;" class="header col s12 light" >Un buen programador también despliega su propio código</span>
@@ -407,7 +408,7 @@
   </div>
   <div class="container">
     <div class="section pt-section" data-name="Perfiles" id="ptsection-perfiles">
-      <div class="row">
+      <div class="row" id="linkedin-top-bottom">
         <div class="col s12 m3 l3 center" data-philter-grayscale="100 0" data-philter-drop-shadow="0 0 3 90 0 0 10 60">
           <a href="https://mx.linkedin.com/in/francisco-arroyo-83351727" target="_blank">
             <img src="img/linkedin-logo.jpg" alt="Francisco Arroyo Linkedin Profile" class="circle-img" align="middle">
@@ -530,6 +531,9 @@
   }
   </script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/greensock/TweenMax.min.js"></script>
+  <script src="js/jquery.lettering-0.6.1.min.js"></script>
+  <script src="js/jquery.superscrollorama.js"></script>
   <script src="js/philter.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/progresstracker.js"></script>

@@ -62,6 +62,11 @@
   ga('create', 'UA-75221901-1', 'auto');
   ga('send', 'pageview');
 
+  var controller = $.superscrollorama();
+  // controller.addTween(10, TweenMax.to($('#title-line1'), .75, {css:{top: 600}, ease:Quad.easeOut}),200);
+  controller.addTween('#title-line1', TweenMax.from( $('#title-line1'), .75, {css:{letterSpacing:20,opacity:0}, ease:Quad.easeOut}));
+  controller.addTween('#fade-it', TweenMax.from( $('#fade-it'), .5, {css:{opacity: 0}}));
+  controller.addTween('#scale-it', TweenMax.fromTo( $('#scale-it'), .25, {css:{opacity:0, fontSize:'20px'}, immediateRender:true, ease:Quad.easeInOut}, {css:{opacity:1, fontSize:'64px'}, ease:Quad.easeInOut}));
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space

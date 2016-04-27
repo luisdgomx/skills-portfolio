@@ -1,7 +1,7 @@
 
 <?php 
 
-$destinatario = "francisco.arroyo@controlzeta.com.mx";
+$destinatario = "francisco.a.arroyo@gmail.com";
 $asunto = "Contacto CV"; 
 $cuerpo = '<html><head><title>Mensaje desde Mezopanne.com</title></head><body><h1>Este correo llego a traves de CV</h1>';
 $cuerpo .= "<p>De: " . $_POST['email'] . " " . $_POST['first_name'] . " " . $_POST['last_name'] . "</p>";

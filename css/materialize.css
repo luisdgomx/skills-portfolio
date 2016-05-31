@@ -9806,7 +9806,7 @@ select {
 }
 
 .side-nav a {
-  color: #444;
+  color: #444 !important;
   display: block;
   font-size: 1rem;
   height: 64px;

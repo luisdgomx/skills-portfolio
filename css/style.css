@@ -75,6 +75,14 @@ p {
     font-size:30px !important; 
     line-height:45px !important; 
   }
+  .teal{
+    background: #202567 !important;
+  }
+  #download-button2{
+     background-color: #145DE4 !important;
+     border-radius: 20px !important;
+     text-align: center;
+  }
 }
 
 .icon-block {

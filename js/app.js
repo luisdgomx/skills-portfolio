@@ -34,10 +34,10 @@ particlesJS('particles-js',
         "polygon": {
           "nb_sides": 7
         },
-        "image": {
-          "src": "img/github.svg",
-          "width": 100,
-          "height": 100
+			"image": {
+           "src": "https://snap-photos.s3.amazonaws.com/img-thumbs/960w/ij5dpl13hr.jpg",
+           "width": 100,
+           "height": 100
         }
       },
       "opacity": {

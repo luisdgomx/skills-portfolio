@@ -29,24 +29,32 @@
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">Francisco Arroyo</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#ptsection-coding">Coding</a></li>
-        <li><a href="#ptsection-database">Database</a></li>
-        <li><a href="#ptsection-devops">DevOps</a></li>
-        <li><a href="#ptsection-mobile">Mobile</a></li>
-        <li><a href="#ptsection-seo">SEO</a></li>
-        <li><a href="#ptsection-social-media">Social Media</a></li>
-        <li><a href="#ptsection-user-experience">UX</a></li>
-        <li><a href="#ptsection-agile">Agile</a></li>
+        <li><a href="#ptsection-coding" onclick="ga('send', 'event', 'link', 'Coding', 'nav-menu');" >Coding</a></li>
+        <li><a href="#ptsection-database" onclick="ga('send', 'event', 'link', 'Database', 'nav-menu');">Database</a></li>
+        <li><a href="#ptsection-devops" onclick="ga('send', 'event', 'link', 'DevOps', 'nav-menu');">DevOps</a></li>
+        <li><a href="#ptsection-mobile" onclick="ga('send', 'event', 'link', 'Mobile', 'nav-menu');">Mobile</a></li>
+        <li><a href="#ptsection-seo" onclick="ga('send', 'event', 'link', 'SEO', 'nav-menu');">SEO</a></li>
+        <li><a href="#ptsection-social-media" onclick="ga('send', 'event', 'link', 'Social Media', 'nav-menu');">Social Media</a></li>
+        <li><a href="#ptsection-user-experience" onclick="ga('send', 'event', 'link', 'UX', 'nav-menu');">UX</a></li>
+        <li><a href="#ptsection-agile" onclick="ga('send', 'event', 'link', 'Agile', 'nav-menu');">Agile</a></li>
       </ul>
       <ul id="nav-mobile" class="side-nav">
-          <li><a href="#ptsection-coding" class="white-text"><i class="fa fa-code"></i> Coding</a></li>
-          <li><a href="#ptsection-database" class="white-text"><i class="fa fa-database"></i> Database</a></li>
-          <li><a href="#ptsection-devops" class="white-text"><i class="fa fa-server"></i> DevOps</a></li>
-          <li><a href="#ptsection-mobile" class="white-text"><i class="fa fa-mobile"></i> Mobile</a></li>
-          <li><a href="#ptsection-seo" class="white-text"><i class="fa fa-search"></i> SEO</a></li>
-          <li><a href="#ptsection-social-media" class="white-text"><i class="fa fa-users"></i> Social Media</a></li>
-          <li><a href="#ptsection-user-experience" class="white-text"><i class="fa fa-desktop"></i> UX</a></li>
-          <li><a href="#ptsection-agile" class="white-text"><i class="fa fa-fighter-jet"></i> Agile</a></li>
+          <li><a href="#ptsection-coding" class="white-text"  onclick="ga('send', 'event', 'link', 'Coding', 'nav-menu-xs');">
+            <i class="fa fa-code"></i> Coding</a></li>
+          <li><a href="#ptsection-database" class="white-text"onclick="ga('send', 'event', 'link', 'Database', 'nav-menu-xs');">
+            <i class="fa fa-database"></i> Database</a></li>
+          <li><a href="#ptsection-devops" class="white-text"onclick="ga('send', 'event', 'link', 'DevoOs', 'nav-menu-xs');">
+            <i class="fa fa-server"></i> DevOps</a></li>
+          <li><a href="#ptsection-mobile" class="white-text"><i class="fa fa-mobile" 
+            onclick="ga('send', 'event', 'link', 'Coding', 'nav-menu-xs');"></i> Mobile</a></li>
+          <li><a href="#ptsection-seo" class="white-text" onclick="ga('send', 'event', 'link', 'SEO', 'nav-menu-xs');">
+            <i class="fa fa-search"></i> SEO</a></li>
+          <li><a href="#ptsection-social-media" class="white-text" onclick="ga('send', 'event', 'link', 'Social-media', 'nav-menu-xs');">
+            <i class="fa fa-users"></i> Social Media</a></li>
+          <li><a href="#ptsection-user-experience" class="white-text" onclick="ga('send', 'event', 'link', 'UX', 'nav-menu-xs');">
+            <i class="fa fa-desktop"></i> UX</a></li>
+          <li><a href="#ptsection-agile" class="white-text" onclick="ga('send', 'event', 'link', 'agile', 'nav-menu-xs');">
+            <i class="fa fa-fighter-jet"></i> Agile</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -411,22 +419,23 @@
     <div class="section pt-section" data-name="Perfiles" id="ptsection-perfiles">
       <div class="row" id="linkedin-top-bottom">
         <div class="col s12 m3 l3 center" data-philter-grayscale="100 0" data-philter-drop-shadow="0 0 3 90 0 0 10 60">
-          <a href="https://mx.linkedin.com/in/francisco-arroyo-83351727" target="_blank">
+          <a href="https://mx.linkedin.com/in/francisco-arroyo-83351727" onclick="ga('send', 'event', 'link', 'linkedin', 'Perfiles');" 
+          target="_blank">
             <img src="img/linkedin-logo.jpg" alt="Francisco Arroyo Linkedin Profile" class="circle-img" align="middle">
           </a>
         </div>
         <div class="col s12 m3 l3 center" data-philter-grayscale="100 0" data-philter-drop-shadow="0 0 3 90 0 0 10 60">
-          <a href="https://github.com/controlzeta/" target="_blank">
-            <img src="img/github-jedi-logo.jpg" alt="ControlZeta Github Profile" class="circle-img">
+          <a href="https://github.com/controlzeta/" onclick="ga('send', 'event', 'link', 'github', 'Perfiles');"  target="_blank">
+            <img src="img/github-jedi-logo.jpg" alt="ControlZeta Github Profile"  class="circle-img">
           </a>
         </div>
         <div class="col s12 m3 l3 center" data-philter-grayscale="100 0" data-philter-drop-shadow="0 0 3 90 0 0 10 60">
-          <a href="https://www.behance.net/pakoarroyo" target="_blank">
+          <a href="https://www.behance.net/pakoarroyo" onclick="ga('send', 'event', 'link', 'Behance', 'Perfiles');"  target="_blank">
             <img src="img/behance-logo.jpg" alt="Francisco Arroyo Behance Portfolio" class="circle-img">
           </a>
         </div>
          <div class="col s12 m3 l3 center" data-philter-grayscale="100 0" data-philter-drop-shadow="0 0 3 90 0 0 10 60">
-          <a href="portfolio.html" target="_blank">
+          <a href="portfolio.html" onclick="ga('send', 'event', 'link', 'Portafolio', 'Perfiles');"  target="_blank">
             <img src="img/web-portfolio.png" alt="Portafolio de Trabajo " class="circle-img">
           </a>
         </div>
@@ -477,28 +486,40 @@
         <div class="col l6 s12">
           <h5 class="white-text">Senior Front-End Developer (C#)</h5>
           <p class="grey-text text-lighten-4" style="text-align:justify;">Hola Soy Francisco Arroyo un desarrollador web Front End mexicano enfocado a C# por su rubustez, escalabilidad e interoperabilidad con otros sistemas, pero eso no es todo también he trabajado con PHP, Angular JS y VB realizando mejoras, migraciones y reparaciones de sistemas existentes. Puedo trabajar en modo freelance o por consultora.</p>
-          <a href="" id="download-button2" class="waves-effect waves-light btn modal-trigger" data-target="modal1" >Trabajemos Juntos</a>
+          <a href="" id="download-button2" onclick="ga('send', 'event', 'link', 'contacto-modal', 'Footer');" class="waves-effect waves-light btn modal-trigger" data-target="modal1" >Trabajemos Juntos</a>
         </div>
         <div class="col l3 s12" style="padding-left: 55px;">
           <h5 class="white-text">Menu</h5>
           <ul>
-            <li><a href="#ptsection-coding" class="white-text"><i class="fa fa-code"></i> Coding</a></li>
-            <li><a href="#ptsection-database" class="white-text"><i class="fa fa-database"></i> Database</a></li>
-            <li><a href="#ptsection-devops" class="white-text"><i class="fa fa-server"></i> DevOps</a></li>
-            <li><a href="#ptsection-mobile" class="white-text"><i class="fa fa-mobile"></i> Mobile</a></li>
-            <li><a href="#ptsection-seo" class="white-text"><i class="fa fa-search"></i> SEO</a></li>
-            <li><a href="#ptsection-social-media" class="white-text"><i class="fa fa-users"></i> Social Media</a></li>
-            <li><a href="#ptsection-user-experience" class="white-text"><i class="fa fa-desktop"></i> UX</a></li>
-            <li><a href="#ptsection-agile" class="white-text"><i class="fa fa-fighter-jet"></i> Agile</a></li>
+            <li><a href="#ptsection-coding" onclick="ga('send', 'event', 'link', 'Coding', 'Footer');" 
+              class="white-text"><i class="fa fa-code"></i> Coding</a></li>
+            <li><a href="#ptsection-database" onclick="ga('send', 'event', 'link', 'Database', 'Footer');" 
+              class="white-text"><i class="fa fa-database"></i> Database</a></li>
+            <li><a href="#ptsection-devops" onclick="ga('send', 'event', 'link', 'DevOps', 'Footer');" 
+              class="white-text"><i class="fa fa-server"></i> DevOps</a></li>
+            <li><a href="#ptsection-mobile" onclick="ga('send', 'event', 'link', 'Mobile', 'Footer');" 
+              class="white-text"><i class="fa fa-mobile"></i> Mobile</a></li>
+            <li><a href="#ptsection-seo" onclick="ga('send', 'event', 'link', 'SEO', 'Footer');" 
+              class="white-text"><i class="fa fa-search"></i> SEO</a></li>
+            <li><a href="#ptsection-social-media" onclick="ga('send', 'event', 'link', 'Social-Media', 'Footer');" 
+              class="white-text"><i class="fa fa-users"></i> Social Media</a></li>
+            <li><a href="#ptsection-user-experience" onclick="ga('send', 'event', 'link', 'UX', 'Footer');" 
+              class="white-text"><i class="fa fa-desktop"></i> UX</a></li>
+            <li><a href="#ptsection-agile"  onclick="ga('send', 'event', 'link', 'Agile', 'Footer');" 
+              class="white-text"><i class="fa fa-fighter-jet"></i> Agile</a></li>
           </ul>
         </div>
         <div class="col l3 s12">
           <h5 class="white-text">Connect</h5>
           <ul>
-            <li><a class="white-text" href="https://mx.linkedin.com/in/francisco-arroyo-83351727" alt="Perfil de Linkedin" target="_blank" style="font-size:28px;"><i class="fa fa-behance-square"></i> Behance</a></li>
-            <li><a class="white-text" href="https://github.com/controlzeta/" alt="Perfil de Github" target="_blank" style="font-size:28px;"><i class="fa fa-linkedin-square"></i> Linkedin</a></li>
-            <li><a class="white-text" href="https://www.behance.net/pakoarroyo" alt="Perfil de Behance" target="_blank" style="font-size:28px;"><i class="fa fa-github-square"></i> Github</a></li>
-            <li><a class="white-text" href="portfolio.html" alt="Portafolio de Trabajo" target="_blank" style="font-size:28px;"><i class="fa fa-briefcase"></i> Portafolio</a></li>
+            <li><a class="white-text" href="https://www.behance.net/pakoarroyo" alt="Perfil de Behance" 
+              onclick="ga('send', 'event', 'link', 'Behance', 'Footer');" target="_blank" style="font-size:28px;"><i class="fa fa-behance-square"></i> Behance</a></li>
+            <li><a class="white-text"  href="https://mx.linkedin.com/in/francisco-arroyo-83351727" 
+              onclick="ga('send', 'event', 'link', 'Linkedin', 'Footer');" alt="Perfil de Linkedin" target="_blank" style="font-size:28px;"><i class="fa fa-linkedin-square"></i> Linkedin</a></li>
+            <li><a class="white-text"  href="https://github.com/controlzeta/" alt="Perfil de Github" 
+             onclick="ga('send', 'event', 'link', 'Github', 'Footer');" target="_blank" style="font-size:28px;"><i class="fa fa-github-square"></i> Github</a></li>
+            <li><a class="white-text" href="portfolio.html" alt="Portafolio de Trabajo" target="_blank" 
+              onclick="ga('send', 'event', 'link', 'Portafolio', 'Footer');" style="font-size:28px;"><i class="fa fa-briefcase"></i> Portafolio</a></li>
           </ul>
         </div>
       </div>
@@ -506,11 +527,11 @@
     <div class="footer-copyright">
       <div class="row">
         <div class="col l6 s6 center">
-          Made by <a class="brown-text text-lighten-3" href="http://controlzeta.com.mx" target="_blank">
+          Made by <a class="brown-text text-lighten-3" href="http://controlzeta.com.mx" onclick="ga('send', 'event', 'link', 'controlzeta-home', 'Footer');"  target="_blank">
             <img style="width: 15px;" src="http://pakoarroyo.controlzeta.com.mx/img/control-zeta-logo.png" alt="Logo Control Zeta"/> Control Zeta</a>
         </div>
         <div class="col l6 s6 center">
-          <a style="color:#81D48C !important;" href="en.html" target="_blank"> <i class="fa fa-flag" aria-hidden="true"></i> English Version</a>
+          <a style="color:#81D48C !important;" href="en.html" onclick="ga('send', 'event', 'link', 'English-Version', 'Footer');" target="_blank"> <i class="fa fa-flag" aria-hidden="true"></i> English Version</a>
         </div>
       </div>
     </div>

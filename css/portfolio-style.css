@@ -166,6 +166,15 @@ Intro page
   /* show arrow icon */
   opacity: 1;
 }
+
+.circle-img {
+    border-radius: 50%;
+    width: 80%;
+    text-align: center;
+    top: 15px;
+    left: 22%;
+}
+
 @media only screen and (min-width: 900px) {
   .cd-intro-block::after {
     top: 97.5%;
@@ -849,3 +858,4 @@ Keyframes
     opacity: 1;
   }
 }
+

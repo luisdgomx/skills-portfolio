@@ -30,6 +30,19 @@ p {
     width: 100%;
   }
 
+.errorPage {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-top: 10% !important;
+  line-height: 0rem;
+  height: 100% !important;
+}
+
+#zombie {
+  height:100%; 
+  background-image: url(../img/zombie-link.jpg);
+}
+
 @media only screen and (max-width : 992px) {
 #Counters .section  {
       margin-top: -111px;
@@ -51,6 +64,16 @@ p {
     width:90% !important; 
     font-size:35px !important; 
     line-height:55px !important; 
+  }
+
+  .errorPage {
+    padding-top: 10%;
+  }
+
+  #zombie {
+    height:100%; 
+    min-height: 600px;
+    background-image: url(../img/zombie-md.jpg);
   }
 }
 
@@ -83,6 +106,21 @@ p {
      border-radius: 20px !important;
      text-align: center;
   }
+  #zombie {
+    height:100%; 
+    min-height: 650px;
+    background-image: url(../img/zombie-sm.jpg);
+  }
+
+  .errorPage {
+    padding-bottom: 120% !important;
+  }
+
+  .tiny{
+    font-size: 18px !important;
+    line-height: 24px !important;
+  }
+
 }
 
 .icon-block {
@@ -204,3 +242,4 @@ input[type=password], input[type=email], input[type=url],
     font-size:40px; 
     line-height:65px;
   }
+
